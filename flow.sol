@@ -1,5 +1,6 @@
 pragma solidity ^0.8.0;
 
+import "@chainlink/security/IEC20.sol";
 import "@chainlink/contracts/security/ReentrancyGuard.sol";
 import "@chainlink/contracts/security/Pausable.sol";
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
